@@ -1,10 +1,411 @@
-<!DOCTYPE html>
-<html>
-<title>HTML Tutorial</title>
+<html><head>
+<title>Surya | Profile</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css">
+
+
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="keywords" content="cv">
+
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+	</script>
+ 
+<!---- start-smoth-scrolling---->
+</head>
+
 <body>
+<!-- header -->
+<div class="header" id="home">
+	<div class="container">
+	<!-- top-hedader -->
+		<div class="top-header">
+		<!-- /logo -->
+		<!--top-nav---->
+			<div class="top-nav">
+				<div class="navigation">
+					<div class="logo">
+						<h1><a><span>S</span>URYA PRASANTH SAKTHIVEl</a></h1>
+					</div>
+					<div class="navigation-right">
+						<span class="menu"><img alt=" as" src="images/menu.png"></span>
+						<nav class="link-effect-3" id="link-effect-3">
+						<ul class="nav1 nav nav-wil">
+							<li class="active"><a class="scroll" href="#home" data-hover="Home">Home</a></li>
+							<li><a class="scroll" href="#about" data-hover="About">About</a></li>
+							<li><a class="scroll" href="#skills" data-hover="Skills">Skills</a></li>
+							<li><a class="scroll" href="#work" data-hover="Experience">Experience</a></li>
+							<li><a class="scroll" href="#contact" data-hover="Contact">Contact</a></li>
+							</ul>
+						</nav>
+						<!-- script-for-menu -->
+						<script>
+							$( "span.menu" ).click(function() {
+								$( "ul.nav1" ).slideToggle( 300, function() {
+									 // Animation complete.
+								});
+							});
+						</script>
+						<!-- /script-for-menu -->
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			<!-- /top-hedader -->
+			</div>
+			<div class="banner-info">
+				<div class="col-md-6 header-right">
+					<h3 style="color:darkcyan"><b>FULL STACK DEVELOPER</b></h3>
+					<ul class="address">
+					
+						<li>
+							<ul class="address-text">
+							<li><b>NAME</b></li>
+							<li>Surya Prasanth Sakthivel</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+							<li><b>D.O.B</b></li>
+							<li>15-08-1997</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+							<li><b>PHONE </b></li>
+							<li>+91 9965436869</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
 
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
+                                  
+				
+				<!--<div class="col-md-6 header-left">
+			</div>-->
+			<div class="clearfix"> </div>			
+			</div>
+		</div>
+	</div>
+</div>
 
-</body>
-</html>
+
+<!-- about -->
+<div class="about" id="about">
+	<div class="col-md-6 about-left">
+		<div class="owl-carousel owl-carousel2 owl-theme" id="owl-demo1" style="display: block; opacity: 1;">
+			<div class="owl-wrapper-outer"><div class="owl-wrapper" style="transition:800ms; left: 0px; width: 9520px; display: block; transform: translate3d(-2856px, 0px, 0px);"><div class="owl-item" style="width: 952px;"><div class="item">
+				<div class="about-left-grid">
+					<h2><span>About Me!..</span></h2>
+					<ul><li>I'm pursuing my undergraduate degree at the kumaraguru college of technology in the stream of computer science and engineering</li>
+					    <li>I am a person with determination, social responsibility.
+						I always uphold my ethical values at all situations</li>
+<li>I am a hardworking person with lots of determination and patience</li>
+<li>I love Web Development and I'm ardent of developing Web app.</li>
+					</ul>
+				</div>
+			</div></div><div class="owl-item" style="width: 952px;"><div class="item">
+				<div class="about-left-grid">
+					<h2><span>Projects Done..</span></h2>
+					<p></p>
+					<b></b><ul><b></b>
+						<b><li>A Web Application implementing Online Assessment with Level Of Difficulty</li></b>
+						It consists of two sections Normal assessment test and Tests based on the difficulty level of each question. The normal test consists of the set of questions to the students in a random manner; the student has to answer those questions. With the help of the answered questions generate the difficulty level of each and every question. Based on this assessment we can predict the knowledge level of the student in a particular course.
+<div style="padding-top:10px"><font style="font-weight:700">Technologies and Languages used:</font></div>
+
+<div>Front End: Java Script, HTML, CSS</div>      <div>   Back End: Python Django</div>      <div>  Tools used: Pycharm</div>
+
+						
+</ul>
+				</div>
+			</div></div><div class="owl-item" style="width: 952px;"><div class="item">
+				<div class="about-left-grid">
+					<h2><span>Projects Done..</span></h2>
+					<p></p>
+					<b></b><ul><b></b>
+						<b><li>Implemented A Billing Calculations For Medical Pharmacy System</li></b>
+A software which is used for billing calculations in pharmacy system.It also stores the information of all the medicines and also its expiry date.It automatically excludes the products which has been expired.
+<div style="padding-top:10px"><font style="font-weight:700">Technologies and Languages used:</font></div>
+
+<div>Language Used: C++(Data Structures)</div>      <div>   </div>      <div>  Tools used: CodeBlocks</div>
+
+						
+</ul>
+				</div>
+			</div></div><div class="owl-item" style="width: 952px;"><div class="item">
+				<div class="about-left-grid">
+					<h2><span>Achievements!</span></h2>
+					<p></p>
+					<ul>
+						<li>Won Second Prize in Coding Challenge which was held at Karpagam College Of Engineering, Coimbatore</li>
+					
+						<li>Scored Centum in Mathematics in both SSLC and HSC Examination</li>
+						<li>Obtained level A2 certification in Business English Certification conducted by Cambridge University</li> 
+					</ul>
+				</div>
+			</div></div><div class="owl-item" style="width: 952px;"><div class="item">
+				<div class="about-left-grid">
+					<h2><span>Hobbies!</span></h2>
+					<p></p>
+					<ul>			
+						<li>Playing Cricket</li>
+						<li>Playing Chess</li>
+						<li>Morning Exercises</li>
+						<li>Listening Music</li>
+						<li>Swimming</li>
+<li>Driving</li>
+					</ul>
+				</div>
+			</div></div></div></div>
+
+
+			
+
+
+			
+
+			
+			
+
+
+		<div class="owl-controls clickable"><div class="owl-pagination"><div class="owl-page"><span></span></div><div class="owl-page"><span></span></div><div class="owl-page"><span></span></div><div class="owl-page active"><span></span></div><div class="owl-page"><span></span></div></div></div></div>
+	</div>
+	<div class="col-md-6 about-right">
+		<img class="img-responsive" alt="My Photo" src="images/bg2.jpg">		
+	</div>
+	<div class="clearfix"> </div>
+	<link href="css/owl.carousel.css" rel="stylesheet">
+	<script src="js/owl.carousel.js"></script>
+	<script>
+		$(document).ready(function() {
+			$("#owl-demo1").owlCarousel({
+				items : 1,
+				lazyLoad : false,
+				autoPlay : true,
+				navigation : false,
+				navigationText :  false,
+				pagination : true,
+			});
+		})
+	</script>
+
+	<script>
+		$(document).ready(function() {
+			$("#owl-demo3").owlCarousel({
+				items : 1,
+				lazyLoad : false,
+				autoPlay : true,
+				navigation : false,
+				navigationText :  true,
+				pagination :true,
+			});
+		});
+		</script>
+</div>
+			
+<div class="about-back"></div>
+
+
+<div class="my-skills text-center" id="skills">
+	<div class="container">
+		<h3>MY SKILLS</h3>
+		<div class="strip text-center"><img alt=" " src="images/skill.png"></div>
+			<div class="skill-grids">
+				<div class="col-md-2 skills-grid text-center">
+					<div class="circle" id="circles-1"><div class="circles-wrp" style="position:relative; display:inline-block;"><svg xmlns="http://www.w3.org/2000/svg" width="160" height="160"><path fill="transparent" stroke="#6ed4c0" stroke-width="10" d="M 79.9847 5 A 75 75 0 1 1 79.8958 5.00007 Z" /><path fill="transparent" stroke="#ffffff" stroke-width="10" d="M 79.9847 5 A 75 75 0 1 1 19.2836 35.9714" /></svg><div class="circles-text-wrp" style="position:absolute; top:0; left:0; text-align:center; width:100%; font-size:56px; height:160px; line-height:160px;"><span class="circles-number"><span class="circles-number">85</span></span><span class="circles-text">%</span></div></div></div>
+					<p>C and C++</p>
+				</div>
+				<div class="col-md-2 skills-grid text-center">
+					<div class="circle" id="circles-2"><div class="circles-wrp" style="position:relative; display:inline-block;"><svg xmlns="http://www.w3.org/2000/svg" width="160" height="160"><path fill="transparent" stroke="#6ed4c0" stroke-width="10" d="M 79.9847 5 A 75 75 0 1 1 79.8958 5.00007 Z" /><path fill="transparent" stroke="#ffffff" stroke-width="10" d="M 79.9847 5 A 75 75 0 1 1 8.70405 103.278" /></svg><div class="circles-text-wrp" style="position:absolute; top:0; left:0; text-align:center; width:100%; font-size:56px; height:160px; line-height:160px;"><span class="circles-number"><span class="circles-number">70</span></span><span class="circles-text">%</span></div></div></div>
+					<p>HTML &amp; CSS</p>
+				</div>
+				<div class="col-md-2 skills-grid text-center">
+					<div class="circle" id="circles-3"><div class="circles-wrp" style="position:relative; display:inline-block;"><svg xmlns="http://www.w3.org/2000/svg" width="160" height="160"><path fill="transparent" stroke="#6ed4c0" stroke-width="10" d="M 79.9847 5 A 75 75 0 1 1 79.8958 5.00007 Z" /><path fill="transparent" stroke="#ffffff" stroke-width="10" d="M 79.9847 5 A 75 75 0 1 1 8.70405 103.278" /></svg><div class="circles-text-wrp" style="position:absolute; top:0; left:0; text-align:center; width:100%; font-size:56px; height:160px; line-height:160px;"><span class="circles-number"><span class="circles-number">70</span></span><span class="circles-text">%</span></div></div></div>
+					<p>SQL</p>
+				</div>
+				<div class="col-md-2 skills-grid text-center">
+					<div class="circle" id="circles-4"><div class="circles-wrp" style="position:relative; display:inline-block;"><svg xmlns="http://www.w3.org/2000/svg" width="160" height="160"><path fill="transparent" stroke="#6ed4c0" stroke-width="10" d="M 79.9847 5 A 75 75 0 1 1 79.8958 5.00007 Z" /><path fill="transparent" stroke="#ffffff" stroke-width="10" d="M 79.9847 5 A 75 75 0 1 1 80.0597 155" /></svg><div class="circles-text-wrp" style="position:absolute; top:0; left:0; text-align:center; width:100%; font-size:56px; height:160px; line-height:160px;"><span class="circles-number"><span class="circles-number">50</span></span><span class="circles-text">%</span></div></div></div>
+					<p>JavaScript</p>
+				</div>
+				<div class="col-md-2 skills-grid text-center">
+					<div class="circle" id="circles-5"><div class="circles-wrp" style="position:relative; display:inline-block;"><svg xmlns="http://www.w3.org/2000/svg" width="160" height="160"><path fill="transparent" stroke="#6ed4c0" stroke-width="10" d="M 79.9847 5 A 75 75 0 1 1 79.8958 5.00007 Z" /><path fill="transparent" stroke="#ffffff" stroke-width="10" d="M 79.9847 5 A 75 75 0 1 1 8.70405 103.278" /></svg><div class="circles-text-wrp" style="position:absolute; top:0; left:0; text-align:center; width:100%; font-size:56px; height:160px; line-height:160px;"><span class="circles-number"><span class="circles-number">70</span></span><span class="circles-text">%</span></div></div></div>
+					<p>Python</p>
+				</div>
+				<div class="col-md-2 skills-grid text-center">
+					<div class="circle" id="circles-6"><div class="circles-wrp" style="position:relative; display:inline-block;"><svg xmlns="http://www.w3.org/2000/svg" width="160" height="160"><path fill="transparent" stroke="#6ed4c0" stroke-width="10" d="M 79.9847 5 A 75 75 0 1 1 79.8958 5.00007 Z" /><path fill="transparent" stroke="#ffffff" stroke-width="10" d="M 79.9847 5 A 75 75 0 1 1 5.00001 80.0444" /></svg><div class="circles-text-wrp" style="position:absolute; top:0; left:0; text-align:center; width:100%; font-size:56px; height:160px; line-height:160px;"><span class="circles-number"><span class="circles-number">75</span></span><span class="circles-text">%</span></div></div></div>
+					<p>Java</p>
+				</div>
+				<div class="clearfix"> </div>
+
+				 <script src="js/circles.js" type="text/javascript"></script>
+
+				<script>
+					var colors = [
+							['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff']
+						];
+					var percentage=[85,70,70,50,70,75];
+					for (var i = 1; i <7; i++)
+					 {
+						var child = document.getElementById('circles-' + i);
+						Circles.create({
+							id:         child.id,
+							percentage: percentage[i-1],
+							radius:     80,
+							width:      10,
+							number:     percentage[i-1] / 1,
+							text:       '%',
+							colors:     colors[i - 1]
+							});
+					}
+						
+				</script>
+		</div>
+	</div>	
+</div>
+
+<div class="my-skill-back"></div>
+
+
+<!--work-experience-->
+<div class="work" id="work">
+	<div class="container">
+		<div class="service-head text-center">
+			<h4>WHAT I DID</h4>
+			<h3>MY <span>EDUCATION</span></h3>
+			<span class="border one"></span>
+		</div>
+		<div class="time-main w3l-agile">
+			<div class="col-md-6 year-info">
+			<ul class="year">
+				<li>2015-2019</li>
+				<li>2015</li>
+				<li>2013</li>
+				<div class="clearfix"></div>
+			</ul>
+		</div> 
+		<ul class="col-md-6 timeline">
+			<li><div class="timeline-badge info"><i class="glyphicon glyphicon-book"></i></div>
+			<div class="timeline-panel">
+				<div class="timeline-heading">
+					<h4 class="timeline-title">UNDER GRADUATE</h4>
+				</div>
+				<div class="timeline-body">
+					<ul>
+						<li>Kumaraguru College Of Technology</li>
+						<li>Computer Science And Engineering</li>
+						<li>Cgpa - 7.30</li>
+					</ul>
+				</div>
+			</div>
+			</li>
+										
+			<li><div class="timeline-badge primary"><i class="glyphicon glyphicon-book"></i></div>
+			<div class="timeline-panel">
+				<div class="timeline-heading">
+					<h4 class="timeline-title">GRADE 12</h4>
+				</div>
+				<div class="timeline-body">
+					<ul>
+						<li>Vedhha Vikass Hr Sec School</li>
+						<li>HSC</li>
+						<li>Percentage - 94</li>
+					</ul>
+				</div>
+			</div>
+			</li>
+				
+			<li><div class="timeline-badge pass"><i class="glyphicon glyphicon-book"></i></div>
+			<div class="timeline-panel">
+				<div class="timeline-heading">
+					<h4 class="timeline-title">GRADE 10</h4>
+				</div>
+				<div class="timeline-body">
+					<ul>
+						<li>Bala Bharathi Matriculation Hr Sec School</li>
+						<li>SSLC</li>
+						<li>Percentage - 96</li>
+					</ul>
+				</div>
+			</div>
+			</li>
+		</ul>
+		<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+
+<!--//work-experience-->
+<!-- /header -->
+<div class="footer" id="contact">
+	<div class="container">
+		<div class="service-head one text-center">
+			<h4>CONTACT ME</h4>
+			<h3 style="color:white">GET IN TOUCH WITH ME</h3>
+			<span class="border two"></span>
+		</div>
+
+	<div class="mail_us">
+		<div class="row">
+			<div class="col-md-3 hidden-sm-down"></div>
+			<div class="col-md-6 mail_left">
+				<div class="contact-grid1-left">
+					<div class="contact-grid1-left1">
+						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+						<h4>Contact By Email</h4>
+						<ul>
+							<li><a href="mailto:760978@cognizant.com">SuryaPrasanthS.SK@cognizant.com</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="contact-grid1-left">
+					<div class="contact-grid1-left1">
+						<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+						<h4>Contact By Phone</h4>
+						<ul>
+							<li>+91-9965436869</li>
+						</ul>
+					</div>
+				</div>
+				<div class="contact-grid1-left">
+					<div class="contact-grid1-left1">
+						<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+						<h4>Hails From</h4>
+						<ul>
+							<li>Salem,TamilNadu</li>
+							<li>India</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 hidden-sm-down"></div> 
+		</div>
+		<div class="clearfix"> </div>
+
+		<div class="copy_right text-center">
+			<ul class="social-icons two">
+				<li><a class="fb" href="https://www.facebook.com/profile.php?id=100010871385836" target="_blank" as=""></a></li>
+				
+			</ul>
+		</div>
+	</div>
+</div>
+			<!-- //footer -->
+
+
+<a class="scroll" id="toTop" style="display: block;" href="#home" data-hover="Home"><span id="toTopHover" style="opacity: 1;"></span>
+
+<script src="js/bootstrap.js"></script>
+
+	
+
+</a></div></body></html>
